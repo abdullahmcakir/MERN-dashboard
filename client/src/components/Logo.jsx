@@ -1,9 +1,19 @@
-import React from 'react'
-import "./Logo.tsx"
+import React from 'react';
+import "./logo.css";
 
 function Logo() {
+  const handleToggleSidebar = () => {
+    document.body.classList.toggle("toggle-sidebar");
+  };
+
   return (
-    <div>Logo</div>
+    <div className='d-flex align-items-center justify-content-between'>
+      <a href="/" className='logo d-flex align-items-center'>
+        {/* {logo görsel} */}
+        <span className='d-none d-lg-block'>AdminDashboard</span>
+      </a>
+      <i className='bi bi-list toggle-sidebar-btn' onClick={handleToggleSidebar}></i>
+    </div>
   )
 }
 
