@@ -7,12 +7,16 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import './App.css';
 import Header from './components/Header.jsx';
+import Sidebar from './components/Sidebar.jsx';
 
 
 
 function App() {
   return (
+  <>
   <Header />
+  <Sidebar />
+  </>
   );
 }
 
