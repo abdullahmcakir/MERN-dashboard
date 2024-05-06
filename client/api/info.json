@@ -1,0 +1,186 @@
+{
+    "cards": [
+        {
+            "_id": 1,
+            "name": "Sales",
+            "icon": "bi bi-cart",
+            "amount": 145,
+            "percentage": 0.12,
+            "active": true
+        },
+        {
+            "_id": 2,
+            "name": "Revenue",
+            "icon": "bi bi-currency-dollar",
+            "amount": 3246,
+            "percentage": 0.18,
+            "active": false
+        },
+        {
+            "_id": 3,
+            "name": "Customers",
+            "icon": "bi bi-people",
+            "amount": 1244,
+            "percentage": -0.11,
+            "active": false
+        }
+    ],
+    "news": [
+            {
+                "_id": 1,
+                "img": "../src/images/avatar/Bust/peep-31.png",
+                "title": "Excepteur sint occaecat cupidatat non proident, sunt",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+                "category": "abc"
+            },
+            {
+                "_id": 2,
+                "img": "../src/images/avatar/Bust/peep-57.png",
+                "title": "Nemo enim ipsam voluptatem quia voluptas sit",
+                "subtitle": "Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit",
+                "category": "abc"
+            },
+            {
+                "_id": 3,
+                "img": "../src/images/avatar/Bust/peep-16.png",
+                "title": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "subtitle": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                "category": "abc"
+            },
+            {
+                "_id": 4,
+                "img": "../src/images/avatar/Bust/peep-85.png",
+                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                "subtitle": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+                "category": "abc"
+            },
+            {
+                "_id": 5,
+                "img": "../src/images/avatar/Bust/peep-14.png",
+                "title": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+                "subtitle": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "category": "abc"
+            }
+    ],
+    "topselling": [
+            {
+                "_id": 1,
+                "preview": "../src/images/avatar/Bust/peep-24.png",
+                "name": "Lorem ipsum dolor sit amet",
+                "price": 16,
+                "sold": 124
+            },
+            {
+                "_id": 2,
+                "preview": "../src/images/avatar/Bust/peep-64.png",
+                "name": "Consectetur adipiscing elit",
+                "price": 22,
+                "sold": 46
+            },{
+                "_id": 3,
+                "preview": "../src/images/avatar/Bust/peep-11.png",
+                "name": "Sit amet, consectetur adipiscing elit",
+                "price": 18,
+                "sold": 84
+            },{
+                "_id": 4,
+                "preview": "../src/images/avatar/Bust/peep-43.png",
+                "name": "Dolor sit amet, consectetur adipiscing ",
+                "price": 94,
+                "sold": 260
+            },
+            {
+                "_id": 5,
+                "preview": "../src/images/avatar/Bust/peep-28.png",
+                "name": "Amet, consectetur adipiscing elit",
+                "price": 53,
+                "sold": 21
+            }
+    ],
+    "recentsales": [
+        {
+            "_id": 1,
+            "number": "#2674",
+            "customer": "Kevin De Bruyne",
+            "product": "Quis autem vel",
+            "price": 0.18,
+            "status": "Approved"
+        },
+        {
+            "_id": 2,
+            "number": "#2342",
+            "customer": "Mo Salah",
+            "product": "Voluptate velit esse",
+            "price": 34,
+            "status": "Pending"
+        },
+        {
+            "_id": 3,
+            "number": "#6433",
+            "customer": "Dusan Vlahovic",
+            "product": "Vel illum qui dolorem",
+            "price": 252,
+            "status": "Approved"
+        },
+        {
+            "_id": 4,
+            "number": "#5645",
+            "customer": "Brahim Diaz",
+            "product": "Esse quam nihil molestiae",
+            "price": 123,
+            "status": "Rejected"
+        },
+        {
+            "_id": 5,
+            "number": "#7548",
+            "customer": "Dries Mertens",
+            "product": "Quo voluptas nulla pariatur",
+            "price": 43,
+            "status": "Approved"
+        }
+    ],
+    "recentactivity": [
+        {
+            "_id": 1,
+            "time": "32 min",
+            "color": "text-success",
+            "content": "Quo voluptas nulla pariatur",
+            "highlight": "explicabo officiis"
+        },
+        {
+            "_id": 2,
+            "time": "56 min",
+            "color": "text-danger",
+            "content": "Sed quia non numquam",
+            "highlight": ""
+        },
+        {
+            "_id": 3,
+            "time": "2 days",
+            "color": "text-primary",
+            "content": "Voluptas nulla pariatur",
+            "highlight": ""
+        },
+        {
+            "_id": 4,
+            "time": "3 weeks",
+            "color": "text-info",
+            "content": "Est sit eum reiciendis exercitationem",
+            "highlight": "occaecati voluptatem"
+        },
+        {
+            "_id": 5,
+            "time": "1 month",
+            "color": "text-muted",
+            "content": "Ut quidem quidem sit quas",
+            "highlight": ""
+        },
+        {
+            "_id": 6,
+            "time": "1 year",
+            "color": "text-warning",
+            "content": "Dicta dolorem harum nulla eius.",
+            "highlight": ""
+        }
+    ]
+}
