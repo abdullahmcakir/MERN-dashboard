@@ -1,11 +1,11 @@
 import React from 'react';
 
-function TopSellingItem( {item} ) {
+function TopSellingItem({ item }) {
   return (
     <tr>
         <th className="row">
             <a href="#">
-                <img src={item.preview} alt="" />
+                <img src={item.preview} alt="img" />
             </a>
         </th>
         <td>

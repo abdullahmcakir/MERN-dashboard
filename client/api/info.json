@@ -28,35 +28,35 @@
     "news": [
             {
                 "_id": 1,
-                "img": "../src/images/avatar/Bust/peep-31.png",
+                "img": "../public/assets/items/product-1.jpeg",
                 "title": "Excepteur sint occaecat cupidatat non proident, sunt",
                 "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
                 "category": "abc"
             },
             {
                 "_id": 2,
-                "img": "../src/images/avatar/Bust/peep-57.png",
+                "img": "../public/assets/items/product-2.jpeg",
                 "title": "Nemo enim ipsam voluptatem quia voluptas sit",
                 "subtitle": "Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit",
                 "category": "abc"
             },
             {
                 "_id": 3,
-                "img": "../src/images/avatar/Bust/peep-16.png",
+                "img": "../public/assets/items/product-3.jpeg",
                 "title": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
                 "subtitle": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
                 "category": "abc"
             },
             {
                 "_id": 4,
-                "img": "../src/images/avatar/Bust/peep-85.png",
+                "img": "../public/assets/items/product-4.jpeg",
                 "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 "subtitle": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
                 "category": "abc"
             },
             {
                 "_id": 5,
-                "img": "../src/images/avatar/Bust/peep-14.png",
+                "img": "../public/assets/items/product-5.jpeg",
                 "title": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
                 "subtitle": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
                 "category": "abc"
@@ -65,33 +65,35 @@
     "topselling": [
             {
                 "_id": 1,
-                "preview": "../src/images/avatar/Bust/peep-24.png",
+                "preview": "../public/assets/items/product-1.jpeg",
                 "name": "Lorem ipsum dolor sit amet",
                 "price": 16,
                 "sold": 124
             },
             {
                 "_id": 2,
-                "preview": "../src/images/avatar/Bust/peep-64.png",
+                "preview": "../public/assets/items/product-2.jpeg",
                 "name": "Consectetur adipiscing elit",
                 "price": 22,
                 "sold": 46
-            },{
+            },
+            {
                 "_id": 3,
-                "preview": "../src/images/avatar/Bust/peep-11.png",
+                "preview": "../public/assets/items/product-3.jpeg",
                 "name": "Sit amet, consectetur adipiscing elit",
                 "price": 18,
                 "sold": 84
-            },{
+            },
+            {
                 "_id": 4,
-                "preview": "../src/images/avatar/Bust/peep-43.png",
+                "preview": "../public/assets/items/product-4.jpeg",
                 "name": "Dolor sit amet, consectetur adipiscing ",
                 "price": 94,
                 "sold": 260
             },
             {
                 "_id": 5,
-                "preview": "../src/images/avatar/Bust/peep-28.png",
+                "preview": "../public/assets/items/product-5.jpeg",
                 "name": "Amet, consectetur adipiscing elit",
                 "price": 53,
                 "sold": 21

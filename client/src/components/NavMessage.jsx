@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import profileImg from '../images/avatar/Bust/peep-104.png';
 
 function NavMessage() {
   return (
@@ -24,7 +25,7 @@ function NavMessage() {
 
         <li className='message-item'>
           <a href="#">
-            <img src="../images/avatar/Bust/peep-22.png" alt="" className='rounded-circle' />
+            <img src={profileImg} alt="" className='rounded-circle' />
             <div>
               <h4>Maria Hudson</h4>
               <p>

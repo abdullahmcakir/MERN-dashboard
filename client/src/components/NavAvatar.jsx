@@ -47,7 +47,7 @@ function NavAvatar() {
           <a href="users-profile.html" className='dropdown-item d-flex align-items-center'>
             <i className='bi bi-question-circle'>
               <span>Need Help?</span>
-            </i>
+            </i>c
           </a>
         </li>
 
