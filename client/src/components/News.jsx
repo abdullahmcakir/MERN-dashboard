@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import CardFilter from './CardFilter';
-import RecentActivityItem from './RecentActivityItem';
-import './recentActivity.css';
+import './news.css';
+import NewsPostItem from './NewsPostItem';
 
-function RecentActivity() {
-    const [items, setItems] = useState([]);
+function News() {
+    const [news, setNews] = useState([]);
     const [filter, setFilter] = useState('Today');
     const handleFilterChange = filter => {
         setFilter(filter);
     };
 
     const fetchData = () => {
-        fetch('http://localhost:4000/recentactivity')
+        fetch('http://localhost:4000/news')
         .then(res => res.json())
         .then(data => {
-            setItems(data);
+            setNews(data);
         })
         .catch(e => console.log(e.message));
     };
@@ -22,26 +22,23 @@ function RecentActivity() {
     useEffect(() => {
         fetchData();
     }, []);
-
   return (
     <div className="card">
         <CardFilter filterChange={handleFilterChange} />
 
-        <div className="card-body">
+        <div className="card-body pb-0">
             <h5 className="card-title">
-                Recent Activity <span>| {filter}</span>
+                News &amp; Updates <span>| {filter}</span>
             </h5>
 
-            <div className="activity">
-                {items &&
-                items.length > 0 &&
-                items.map(item => (
-                    <RecentActivityItem key={item._id} item={item} />
-                ))}
+            <div className="news">
+                {news &&
+                news.length > 0 &&
+                news.map(item => <NewsPostItem key={item._id} item={item} />)}
             </div>
         </div>
     </div>
   );
 }
 
-export default RecentActivity
+export default News

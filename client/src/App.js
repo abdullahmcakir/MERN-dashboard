@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 
 import './App.css';
+import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import Sidebar from './components/Sidebar.jsx';
@@ -18,6 +19,7 @@ function App() {
   <Header />
   <Sidebar />
   <Main />
+  <Footer />
   </>
   );
 }
